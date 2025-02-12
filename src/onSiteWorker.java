@@ -7,6 +7,6 @@ public class onSiteWorker extends worker{
 
     @Override
     public double calculateSalary(int hoursWorked) {
-        return super.calculateSalary(hoursWorked) * gasoline;
+        return super.calculateSalary(hoursWorked) + gasoline;
     }
 }

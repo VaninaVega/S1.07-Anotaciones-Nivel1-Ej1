@@ -7,6 +7,6 @@ public class onLineWorker extends worker {
 
     @Override
     public double calculateSalary(int hoursWorked) {
-        return super.calculateSalary(hoursWorked) * internet;
+        return super.calculateSalary(hoursWorked) + internet;
     }
 }
